@@ -39,7 +39,7 @@ class Trainer:public GameObject
     bool Update();
     string GetName();
     unsigned int GetHealth();
-    int num_wp_following;
+    int num_wp_following; //number of wild pokemon following this trainer
 
     protected:
     bool UpdateLocation();
